@@ -1,5 +1,5 @@
 {
-  "name": "Keycode.js",
+  "name": "keycode.js",
   "version": "0.0.1",
   "description": "Use human key names instead of keycode numbers for your keyboard bindings.",
   "author": "Endel Dreyer <endel.dreyer@gmail.com>",
