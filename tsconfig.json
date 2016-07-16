@@ -1,0 +1,14 @@
+{
+  "baseDir": ".",
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "test"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "keycode.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Use human key names instead of keycode numbers for your keyboard bindings.",
   "author": "Endel Dreyer <endel.dreyer@gmail.com>",
   "keywords": [
@@ -10,15 +10,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/endel/keycode.js.git"
+    "url": "git://github.com/gamestdio/keycode.js.git"
   },
   "main": "index.js",
   "scripts": {
-    "start": "browserify index.js -s Keycode -o dist/keycode.js && browserify index.js -t uglifyify -s Keycode -o dist/keycode.min.js"
+    "prepublish": "tsc -d"
   },
   "license": "MIT",
   "devDependencies": {
-    "browserify": "^10.1.2",
-    "uglifyify": "^3.0.1"
+    "typescript": "^1.8.10"
   }
 }
