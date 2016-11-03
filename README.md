@@ -1,3 +1,9 @@
+**DEPRECATION WARNING**
+
+The [`which`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/which) and [`keyCode`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) properties are being deprecated by the browsers. Even though it still might work, the usage is not encouraged anymore.
+
+You would rather use the new [`key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) or [`code`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) attributes in `KeyboardEvent`.
+
 keycode.js
 ===
 
