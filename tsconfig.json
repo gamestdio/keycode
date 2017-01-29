@@ -1,12 +1,16 @@
 {
-  "baseDir": ".",
   "compilerOptions": {
+    "outDir": "lib",
     "target": "ES5",
     "module": "commonjs",
     "noImplicitAny": true,
     "sourceMap": false,
+    "declaration": true,
     "allowSyntheticDefaultImports": true
   },
+  "files": [
+    "index.ts"
+  ],
   "exclude": [
     "node_modules",
     "test"
