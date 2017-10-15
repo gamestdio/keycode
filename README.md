@@ -6,17 +6,19 @@ Use human key names instead of keycode numbers for your keyboard bindings.
 
 ## Warning
 
-The [`which`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/which) and [`keyCode`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) properties are in the process of being deprecated by the browsers.
+The [`which`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/which) and [`keyCode`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) properties are being deprecated by the browsers. Even though it still might work, the usage is not encouraged anymore.
 
-You would rather use the new [`key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) or [`code`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) attributes in `KeyboardEvent` instead. By the time of this writing, IE/Edge doesn't support either `KeyboardEvent.key` or `KeyboardEvent.code` yet.
+You would rather use the new [`key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) or [`code`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) attributes in `KeyboardEvent` instead.
+
+By the time of this writing, IE/Edge still doesn't support `key`/`code` attributes on `KeyboardEvent`. See more: https://caniuse.com/#feat=keyboardevent-code
 
 ## Usage example
 
-```typescript
-import { Keycode } from "keycode.js";
+```javascript
+var Keycode = require('keycode.js')
 
 document.addEventListener('keyup', function(e) {
-  if (e.code == Keycode.Enter) {
+  if (e.which == Keycode.ENTER) {
     console.log("User pressed ENTER key")
   }
 })

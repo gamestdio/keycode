@@ -1,6 +1,6 @@
 {
   "name": "@gamestdio/keycode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use human key names instead of keycode numbers for your keyboard bindings.",
   "author": "Endel Dreyer <endel.dreyer@gmail.com>",
   "keywords": [
@@ -10,18 +10,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/gamestdio/keycode.git"
+    "url": "git://github.com/gamestdio/keycode.js.git"
   },
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "files": [
-    "lib"
-  ],
+  "main": "index.js",
   "scripts": {
-    "prepublish": "tsc"
+    "prepublish": "tsc -d"
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^2.1.5"
+    "typescript": "^1.8.10"
   }
 }
