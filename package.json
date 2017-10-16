@@ -1,6 +1,6 @@
 {
   "name": "@gamestdio/keycode",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Use human key names instead of keycode numbers for your keyboard bindings.",
   "author": "Endel Dreyer <endel.dreyer@gmail.com>",
   "keywords": [

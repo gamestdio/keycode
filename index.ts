@@ -1,111 +1,109 @@
-export default {
-  BACKSPACE: 8,
-  TAB: 9,
-  ENTER: 13,
-  SHIFT: 16,
-  CTRL: 17,
-  ALT: 18,
-  PAUSE: 19,
-  CAPSLOCK: 20,
-  ESCAPE: 27,
-  SPACE: 32,
+export const BACKSPACE = 8;
+export const TAB = 9;
+export const ENTER = 13;
+export const SHIFT = 16;
+export const CTRL = 17;
+export const ALT = 18;
+export const PAUSE = 19;
+export const CAPSLOCK = 20;
+export const ESCAPE = 27;
+export const SPACE = 32;
 
-  PAGEUP: 33,
-  PAGEDOWN: 34,
-  END: 35,
-  HOME: 36,
-  LEFT: 37,
-  UP: 38,
-  RIGHT: 39,
-  DOWN: 40,
-  INSERT: 45,
-  DELETE: 46,
+export const PAGEUP = 33;
+export const PAGEDOWN = 34;
+export const END = 35;
+export const HOME = 36;
+export const LEFT = 37;
+export const UP = 38;
+export const RIGHT = 39;
+export const DOWN = 40;
+export const INSERT = 45;
+export const DELETE = 46;
 
-  // numbers
-  KEY_0: 48,
-  KEY_1: 49,
-  KEY_2: 50,
-  KEY_3: 51,
-  KEY_4: 52,
-  KEY_5: 53,
-  KEY_6: 54,
-  KEY_7: 55,
-  KEY_8: 56,
-  KEY_9: 57,
+// numbers
+export const KEY_0 = 48;
+export const KEY_1 = 49;
+export const KEY_2 = 50;
+export const KEY_3 = 51;
+export const KEY_4 = 52;
+export const KEY_5 = 53;
+export const KEY_6 = 54;
+export const KEY_7 = 55;
+export const KEY_8 = 56;
+export const KEY_9 = 57;
 
-  // alphabet
-  A: 65,
-  B: 66,
-  C: 67,
-  D: 68,
-  E: 69,
-  F: 70,
-  G: 71,
-  H: 72,
-  I: 73,
-  J: 74,
-  K: 75,
-  L: 76,
-  M: 77,
-  N: 78,
-  O: 79,
-  P: 80,
-  Q: 81,
-  R: 82,
-  S: 83,
-  T: 84,
-  U: 85,
-  V: 86,
-  W: 87,
-  X: 88,
-  Y: 89,
-  Z: 90,
+// alphabet
+export const A = 65;
+export const B = 66;
+export const C = 67;
+export const D = 68;
+export const E = 69;
+export const F = 70;
+export const G = 71;
+export const H = 72;
+export const I = 73;
+export const J = 74;
+export const K = 75;
+export const L = 76;
+export const M = 77;
+export const N = 78;
+export const O = 79;
+export const P = 80;
+export const Q = 81;
+export const R = 82;
+export const S = 83;
+export const T = 84;
+export const U = 85;
+export const V = 86;
+export const W = 87;
+export const X = 88;
+export const Y = 89;
+export const Z = 90;
 
-  SELECT: 93,
+export const SELECT = 93;
 
-  NUMPAD_0: 96,
-  NUMPAD_1: 97,
-  NUMPAD_2: 98,
-  NUMPAD_3: 99,
-  NUMPAD_4: 100,
-  NUMPAD_5: 101,
-  NUMPAD_6: 102,
-  NUMPAD_7: 103,
-  NUMPAD_8: 104,
-  NUMPAD_9: 105,
+export const NUMPAD_0 = 96;
+export const NUMPAD_1 = 97;
+export const NUMPAD_2 = 98;
+export const NUMPAD_3 = 99;
+export const NUMPAD_4 = 100;
+export const NUMPAD_5 = 101;
+export const NUMPAD_6 = 102;
+export const NUMPAD_7 = 103;
+export const NUMPAD_8 = 104;
+export const NUMPAD_9 = 105;
 
-  MULTIPLY: 106,
-  ADD: 107,
-  SUBTRACT: 109,
-  DECIMALPOINT: 110,
-  DIVIDE: 111,
+export const MULTIPLY = 106;
+export const ADD = 107;
+export const SUBTRACT = 109;
+export const DECIMALPOINT = 110;
+export const DIVIDE = 111;
 
-  // F1~F2
-  F1: 112,
-  F2: 113,
-  F3: 114,
-  F4: 115,
-  F5: 116,
-  F6: 117,
-  F7: 118,
-  F8: 119,
-  F9: 120,
-  F10: 121,
-  F11: 122,
-  F12: 123,
+// F1~F2
+export const F1 = 112;
+export const F2 = 113;
+export const F3 = 114;
+export const F4 = 115;
+export const F5 = 116;
+export const F6 = 117;
+export const F7 = 118;
+export const F8 = 119;
+export const F9 = 120;
+export const F10 = 121;
+export const F11 = 122;
+export const F12 = 123;
 
-  // etc / accents
-  NUMLOCK: 144,
-  SCROLLLOCK: 145,
-  SEMICOLON: 186,
-  EQUALSIGN: 187,
-  COMMA: 188,
-  DASH: 189,
-  PERIOD: 190,
-  FORWARDSLASH: 191,
-  GRAVEACCENT: 192,
-  OPENBRACKET: 219,
-  BACKSLASH: 220,
-  CLOSEBRAKET: 221,
-  SINGLEQUOTE: 222
-}
+// etc / accents
+export const NUMLOCK = 144;
+export const SCROLLLOCK = 145;
+export const SEMICOLON = 186;
+export const EQUALSIGN = 187;
+export const COMMA = 188;
+export const DASH = 189;
+export const PERIOD = 190;
+export const FORWARDSLASH = 191;
+export const GRAVEACCENT = 192;
+export const OPENBRACKET = 219;
+export const BACKSLASH = 220;
+export const CLOSEBRAKET = 221;
+export const SINGLEQUOTE = 222;
