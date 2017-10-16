@@ -15,7 +15,7 @@ By the time of this writing, IE/Edge still doesn't support the new `KeyboardEven
 ## Usage example
 
 ```typescript
-import Keycode from "@gamestdio/keycode";
+import * as Keycode from "@gamestdio/keycode";
 
 document.addEventListener('keyup', function(e) {
   if (e.which == Keycode.ENTER) {
